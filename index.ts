@@ -2,7 +2,7 @@
 
 import inquirer from "inquirer";
 
-const Anwser:{sentence:string} = await inquirer.prompt(
+const Answer:{sentence:string} = await inquirer.prompt(
     [
     {
     name:'sentence',
@@ -15,7 +15,7 @@ const Anwser:{sentence:string} = await inquirer.prompt(
 // .trim() using for delete white spaces
 // .split() using for converting data paragraph/string to array like("i", "am", "going", "to", "home").
 // .split(" ") to space in between (" ") to segregate each words if are removed space("") that each alphabet are segregate
-const words = Anwser.sentence .trim().split(" ")
+const words = Answer.sentence.trim().split(" ")
 console.log(words);
 // .length measure length of array
 console.log(`your paragraph to count ${words.length} words`);

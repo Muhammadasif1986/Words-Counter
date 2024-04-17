@@ -1,9 +1,12 @@
 {
   "name": "m19h-words-counter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wors counter program",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
